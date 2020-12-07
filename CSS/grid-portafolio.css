@@ -63,6 +63,19 @@
         justify-content: center;
         padding-bottom: 7%;
     }
+    #menu {
+        top: 40px;
+        position: fixed; 
+        text-align: center;
+        padding: 2%;
+        height: 15vh;
+        width: 200px; 
+        /* margin-top: 20%;   */
+        list-style: none;
+        background-color: rgba(245 232 232); 
+        color: white;
+        /* right: 0;  */
+    }
 }
 
 @media(max-width: 576px) {
@@ -80,4 +93,23 @@
     .col-sm-12 {width: 100%;} /*=====Este es el que estoy aplicando=====*/
     .banner__title {font-size: 1.3em;}
     .banner__botton{width: 70%; padding: 2%;}
+    .personal__informacion {
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    #menu {
+        top: 40px;
+        position: fixed; 
+        text-align: center;
+        padding: 2%;
+        height: 15vh;
+        width: 200px; 
+        list-style: none;
+        background-color: rgba(245 232 232); 
+        color: white;
+    }
+   
 }
