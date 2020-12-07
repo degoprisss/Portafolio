@@ -16,19 +16,18 @@
 <body>
     <div class="container__body-major col-sm-12 col-md-12 col-lg-12">
         <div class="container-body col-sm-12 col-md-11 col-lg-9">
-            <div class="container__header col-sm-12 col-md-12 col-lg-12">
+            <div id="inicio" class="container__header col-sm-12 col-md-12 col-lg-12">
                 <header class="header col-sm-12 col-md-11 col-lg-9">
-                    <a class="header__logo" href="#">Logo</a>
+                    <a class="header__logo" href="#"><i class="fab fa-digg fa-4x"></i></a>
                     <nav class="header__nav">
                         <ul id="menu" class="header__ul">
-                            <li class="header__li"><a href="#">Inicio</a></li>
-                            <li class="header__li"><a href="#">Sobre mí</a></li>
-                            <li class="header__li"><a href="#">Habilidades</a></li>
-                            <li class="header__li"><a href="#">Proyectos</a></li>
-                            <li class="header__li"><a href="#">Clientes</a></li>
+                            <li class="header__li"><a href="#inicio">Inicio</a></li>
+                            <li class="header__li special"><a href="#personal-id">Sobre mí</a></li>
+                            <li class="header__li"><a href="#habilidades-id">Habilidades</a></li>
+                            <li class="header__li"><a href="#proyectos-id">Proyectos</a></li>
                         </ul>
                     </nav>
-                    <a onclick="showMenu()" href="#">
+                    <a class="icono_nav fa-2x" onclick="showMenu()" href="#">
                         <i class="fas fa-align-justify"></i>
                     </a>
                 </header>
@@ -42,18 +41,17 @@
                     src="https://blog.piensasolutions.com/wp-content/uploads/2017/10/bannerprogramacion.jpg">
             </div>
 
-            <section class="personal">
-                <h2 class="persoanl__tile col-sm-12 col-md-12 col-lg-12">Acerca De Mí</h2>
-
-                <img class="personal__imagen col-sm-4 col-md-4 col-lg-5"
-                    src="./IMAGENES/foto-portafolio.jpeg"
-                    alt="">
-                <p class="personal__paragraph col-sm-12 col-md-7 col-lg-5">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
-                    Maxime at nobis distinctio qui libero vero dolores placeat accusamus repellat!
-                    Esse expedita quam laborum autem eaque nemo magni asperiores fuga itaque?</p>
+            <section id="personal-id" class="personal">
+                <img class="personal__imagen col-sm-4 col-md-4 col-lg-4" src="./IMAGENES/foto-portafolio.jpeg" alt="">
+                <div class="personal__informacion col-sm-4 col-md-12 col-lg-6">
+                    <h2 class="persoanl__tile col-sm-12 col-md-12 col-lg-12">Acerca De Mí</h2>
+                    <p class="personal__paragraph col-sm-12 col-md-7 col-lg-12">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Maxime at nobis distinctio qui libero vero dolores placeat accusamus repellat!
+                        Esse expedita quam laborum autem eaque nemo magni asperiores fuga itaque?</p>
+                </div>
             </section>
-            <div class="container-abilites">
+            <div id="habilidades-id" class="container-abilites">
                 <section class="abilities col-sm-10 col-md-12 col-lg-8">
                     <article class="article__conocimiento">
                         <h2 class="article__title col-sm-12 col-md-6 col-lg-6">Conocimiento</h2>
@@ -97,7 +95,7 @@
                     </article>
                 </section>
             </div>
-            <div class="container__projects">
+            <div id="proyectos-id" class="container__projects">
                 <section class="projects">
                     <h2 class="projects__title col-md-12 col-lg-12 col-sm-12">Proyectos</h2>
                     <div class="projects__row">

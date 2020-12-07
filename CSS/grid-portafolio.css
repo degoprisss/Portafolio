@@ -12,6 +12,31 @@
 .col-lg-11 {width: 91.66%;}
 .col-lg-12 {width: 100%;}
 .persoanl__tile{text-align: center; padding: 2%;}
+.icono_nav {
+    display: none;
+}
+.header{
+    justify-content: space-between;
+    padding: 0 2%;
+}
+#menu{
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.special{
+    width: 190px;
+    text-align: center;
+}
+.header__li{
+    padding: 2% 2%;
+    margin: 0 .7%;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 2px black;
+    background-color: aliceblue;
+    color: white; 
+}
 
 }
 
@@ -34,7 +59,10 @@
         padding-right: 3%;
         padding-bottom: 1%;
     }
-   
+    .personal__informacion {
+        justify-content: center;
+        padding-bottom: 7%;
+    }
 }
 
 @media(max-width: 576px) {
