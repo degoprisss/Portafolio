@@ -4,7 +4,7 @@
     padding: 0%;
 }
 .container__body-major{
-    background-color: #f5e3e0;
+    background-color: rgb(245 227 224);
 }
 .container-body{
     margin: auto;
@@ -18,11 +18,19 @@
 .header__nav ul.header__ul{
     display: none;
 }
-.header{
+
+.container__header{
+    padding-bottom: 60px;
+}
+.header {
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-around;
     background-color:  rgba(148 220 255);
-    /* position: relative; */
+    /* margin: auto; */
+    position: fixed;
+    top: 0;
+    z-index: 999;
     align-items: center;
     min-height: 60px;
 }
@@ -31,9 +39,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-top: 60px; */
 }
 
-.prueba{
+.container-banner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

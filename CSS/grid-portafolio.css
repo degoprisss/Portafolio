@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+@media(min-width: 769px){
 .col-lg-1 {width: 8.33%;}
 .col-lg-2 {width: 16.66%;}
 .col-lg-3 {width: 25%;} /*=====Este es el que estoy aplicando=====*/
